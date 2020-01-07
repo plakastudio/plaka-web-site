@@ -127,6 +127,7 @@ p {
   height: 100%; }
 
 /*===== All Button Style =====*/
+a.main-btn,
 .main-btn {
   display: inline-block;
   font-weight: 700;
@@ -144,7 +145,7 @@ p {
   height: 55px;
   line-height: 51px;
   border-radius: 50px;
-  color: #fff;
+  color: #fff !important;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
