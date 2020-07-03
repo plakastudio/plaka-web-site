@@ -127,8 +127,12 @@ p {
   height: 100%; }
 
 /*===== All Button Style =====*/
+.af-step-next button {
+  background: #f24735 !important;
+}
 a.main-btn,
 .main-btn {
+  min-width: 200px;
   display: inline-block;
   font-weight: 700;
   font-family: "Nunito", sans-serif;
