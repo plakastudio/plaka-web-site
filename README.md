@@ -1,12 +1,22 @@
-# Switch
+# Play - Free Tailwind CSS Template for Startup, Apps and SaaS
 
-A landing page template.
+Play is an open-source and free Tailwind CSS template co-created by TailGrids and UIdeck. This template specially crafted for SaaS, startup, business and software website.
+Play crafted in a way that you can use with almost all sort of web project. This is Tailwind CSS version of our old [Bootstrap](https://preview.uideck.com/items/play-bootstrap/) project.
 
-* [Getting started](#getting-started)
+### This template crafted using 🥞 [TailGrids](https://tailgrids.com/) UI components
 
-## Getting started
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
+### [🚀 View Demo](https://play-tailwind.tailgrids.com/)
+
+### [⬇️ Download Now](https://links.tailgrids.com/play-download)
+
+[![play-tailwind](https://cdn.tailgrids.com/play-tailwind.jpg)](https://play-tailwind.tailgrids.com/)
+
+
+
+## 📃 License
+Play is an open-source template, you can use it with your personal or commercial projects without any attribution or backlink.
+
+## 💙 Support
+You can always support this project by [Starring🌟 This Repository](https://github.com/tailgrids/play-tailwind) 
+and sharing with friends. Also open an issue if you find bug or feel free to contribute by pull requests after fixing any issue or adding more values.
