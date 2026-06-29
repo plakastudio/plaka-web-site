@@ -2,6 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- ====== Consent Mode v2 + Google Tag Manager (Plaka) ====== -->
+    <script>
+      // ID del contenedor GTM de Plaka.
+      window.PLAKA_GTM_ID = "GTM-WTCBB6K8";
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      // Consent Mode v2 — por defecto TODO denegado hasta que el usuario acepta (RGPD)
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "granted",
+        security_storage: "granted",
+        wait_for_update: 500
+      });
+      // Carga GTM solo si hay un ID real configurado (con placeholder no carga nada)
+      (function (w, d, s, l, i) {
+        if (!i || i.indexOf("XXXXXXX") !== -1) return;
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", window.PLAKA_GTM_ID);
+    </script>
+    <!-- ====== End Consent Mode v2 + GTM ====== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404 Page | Play Tailwind</title>
@@ -20,6 +50,9 @@
     </script>
   </head>
   <body>
+    <!-- ====== Google Tag Manager (noscript) ====== -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTCBB6K8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- ====== End Google Tag Manager (noscript) ====== -->
     <!-- ====== Navbar Section Start -->
     <div
       class="
@@ -1367,5 +1400,6 @@
 
     <!-- ====== All Scripts -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/analytics.js" defer></script>
   </body>
 </html>
